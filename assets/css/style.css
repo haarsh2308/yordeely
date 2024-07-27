@@ -813,7 +813,7 @@ section {
   margin-bottom: 40px;
 }
 
-.portfolio-details-4, .portfolio-details-2 .row h4{
+.portfolio-details-4, .portfolio-details-2 .row h4, h2{
   text-align: center;
 }
 
@@ -824,6 +824,11 @@ section {
 
 .portfolio-details-2{
   margin-top: -40px;
+}
+
+.portfolio-details .container .row{
+  justify-content: center;
+  align-items: center;
 }
 /*--------------------------------------------------------------
 # Team
