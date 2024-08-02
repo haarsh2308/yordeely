@@ -61,6 +61,25 @@
   }
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
+
+  /*
+  Hero Section
+  */
+  let index = 0; // Current slide
+const slides = document.querySelectorAll(".slide");
+
+function showSlide(n) {
+  slides.forEach((slide, i) => {
+    slide.style.display = i === n ? "block" : "none";
+  });
+}
+
+// Initial display
+showSlide(index);
+
+showSlide()
+
+
   /**
    * Scrolls to an element with header offset
    */
