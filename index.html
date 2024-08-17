@@ -423,7 +423,7 @@
               </div>
             </div>
 
-            <form action="https://formsubmit.co/htalwar2308@gmail.com" method="POST" class="php-email-form mt-4">
+            <form action="form" name="con" method="POST" class="php-email-form mt-4" data-netlify="true" netlify>
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -441,7 +441,11 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <input type="hidden" name="_captcha" value="false">
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
